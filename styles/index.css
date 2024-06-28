@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+body{
+    font-family: "Poppins", sans-serif;   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu--inicio{
+    display: flex;
+    width: 80%;
+}
+
+.menu--inicio :hover{
+    background-color: black;    
+}
+
+.activo{
+    background-color: black;
+}
+
+.menu--inicio a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+}
+
+.titulo{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen--portada{
+    border-radius: 50px;
+    padding: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.descripcion--serie p{
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: -0.12px;
+    padding: 10px 20px;
+}

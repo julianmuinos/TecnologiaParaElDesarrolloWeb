@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: darkgray;
+}
+
+body{
+    font-family: "Poppins", sans-serif;   
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu--cast{
+    display: flex;
+    width: 80%;
+}
+
+.menu--cast :hover{
+    background-color: black;    
+}
+
+.activo{
+    background-color: black;
+}
+
+.menu--cast a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+}
+
+.contenedor--tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table{
+    color: #1c1e36;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 20px;
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
